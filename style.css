@@ -1,0 +1,159 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  font-size: 0.9em;
+  padding:  0;
+  margin: 0;
+  background-image: url('images/bg-top.svg');
+  background-color: hsl(240, 78%, 98%);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50vw -5vh;
+}
+header{
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+.w-100{
+  width: 100%;
+  margin-top: 20px;
+}
+.w-90{
+  width: 90%;
+}
+.d-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.d-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.border-r-7{
+  border-radius: 7px;
+}
+#professional{
+  background-color: hsl(237, 63%, 64%);
+  color: white;
+}
+#professional button{
+  /* background-color: hsl(237, 63%, 64%); */
+  color: hsl(237, 63%, 64%);
+}
+.details div{
+  border-bottom: 1px solid gray;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  /* color: white; */
+}
+button{
+  border-radius: 7px;
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#master, #basic{
+  background-color: white;
+}
+#master button, #basic button{
+  background-image: linear-gradient( to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+  
+}
+article > div{
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.details > div:first-child{
+  border-top:1px solid gray;
+}
+h3{
+  margin-top: 0;
+  text-align: center;
+  font-size: 2em;
+}
+strong{
+  font-size:2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Styling the switch button */
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+}
+.slider{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+.switch input{
+  display: none;
+}
+.slider:before{
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: 50px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+input[type=checkbox]:checked + .slider{
+  background-color: #ff278c;
+}
+input[type=checkbox]:checked + .slider:before{
+  transform: translateX(50px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
