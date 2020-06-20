@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body{
   font-size: 0.9em;
@@ -42,7 +42,6 @@ header{
   color: white;
 }
 #professional button{
-  /* background-color: hsl(237, 63%, 64%); */
   color: hsl(237, 63%, 64%);
 }
 #professional button:active{
@@ -58,7 +57,9 @@ header{
   padding: 20px;
   margin-bottom: 0;
   margin-top: 0;
-  /* color: white; */
+}
+#professional .details div{
+  border-bottom: 1px solid white;
 }
 button{
   border-radius: 7px;
@@ -91,6 +92,9 @@ article > div{
 }
 .details > div:first-child{
   border-top:1px solid gray;
+}
+#professional .details > div:first-child{
+  border-top:1px solid white;
 }
 h3{
   margin-top: 0;
@@ -162,21 +166,11 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
+/* Stylling the footer */
+.attribution { 
+  font-size: 11px; text-align: center;
+  margin-top: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
