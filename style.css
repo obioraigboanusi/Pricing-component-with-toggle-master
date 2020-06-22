@@ -12,11 +12,16 @@ body{
   background-size: auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: 50vw -5vh;
+  background-position: 0 -15px;
 }
 header{
   padding-top: 30px;
   margin-bottom: 50px;
+}
+main{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .w-100{
   width: 100%;
@@ -167,7 +172,7 @@ input:checked + .slider:before {
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 900px){
   #article{
       display: flex;
       flex-direction: row;
@@ -175,12 +180,26 @@ input:checked + .slider:before {
       align-items: center;
     }
     #professional{
+      height: 450px;
       width: 25vw;
+      margin-top: 0;
       margin-bottom: 0;
       z-index: 1;
     }
     #master, #basic{
       width: 25vw;
       margin-bottom: 0;
+      margin-top: 0;
+    }
+    header{
+      height: auto;
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+    article{
+      height: auto;
+    }
+    footer{
+      display: block;
     }
 } 
