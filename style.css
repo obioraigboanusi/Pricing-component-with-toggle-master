@@ -4,7 +4,6 @@
 body{
   font-family:'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 15px;
-  font-weight: bold;
   padding:  0;
   margin: 0;
   background-color: hsl(240, 78%, 98%);
@@ -55,7 +54,7 @@ header{
   display: block;
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -114,15 +113,16 @@ span{
   font-size: 1.5em;
   padding: 2px;
   vertical-align: middle;
+  font-weight: 700;
 }
 strong {
   font-size:2.5em;
+  font-weight: 700;
 }
 .duration{
   margin: 20px;
   font-size: 1.5em;
 }
-
 /* Styling the switch button */
 .switch {
   position: relative;
@@ -170,16 +170,6 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
-
-/* Stylling the footer */
-.attribution { 
-  font-size: 11px; text-align: center;
-  margin-top: 0;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-.attribution a { color: hsl(228, 45%, 44%); }
-
 /* For larger screen sizes */
 @media screen and (min-width: 900px){
   #article{
@@ -189,7 +179,7 @@ input:checked + .slider:before {
       align-items: center;
     }
     #professional{
-      height: 410px;
+      height: 480px;
       width: 60vw;
       margin-top: 0;
       margin-bottom: 0;
@@ -203,9 +193,6 @@ input:checked + .slider:before {
     header{
       height: auto;
       padding-top: 10px;
-    }
-    footer{
-      display: block;
     }
     main{
       max-width: 1000px;
